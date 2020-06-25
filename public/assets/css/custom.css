@@ -1,0 +1,36 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+/*# sourceMappingURL=custom.css.map */
+body.sidebar-mini .main-sidebar .sidebar-menu>li>a.router-link-exact-active {
+    box-shadow: 0 4px 8px #acb5f6;
+    background-color: #6777ef;
+    color: #fff;
+}
+
+body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li > a.router-link-exact-active {
+    padding-left: 16px;
+    background-color: transparent;
+    position: relative;
+}
+
+body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li > a.router-link-exact-active:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 25px;
+    width: 4px;
+    background-color: #6777ef;
+}
+
+.main-sidebar .sidebar-menu li a.router-link-exact-active {
+    color: #6777ef;
+    font-weight: 600;
+    background-color: #fcfcfd;
+}
